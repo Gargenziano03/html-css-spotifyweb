@@ -11,6 +11,10 @@
     --sp-secondary: #141922;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     overflow: hidden;
 }
@@ -93,6 +97,19 @@ body{
             @media(max-width: 600px){
                 width: 50px;
             }
+
+            .logo{
+                margin: 1rem;
+                
+                @media (max-width: 600){
+                    img {
+                       display: none}
+                    };
+                
+            }
+
+
+
 
         }
         /*main*/
