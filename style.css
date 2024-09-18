@@ -1,26 +1,51 @@
-*{
+/*region common*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body{
     overflow: hidden;
 }
 
-.container{
-    width: 80;
+/*region debug*/
+.debug .top{
+    background-color: aqua;
 }
-.container-sm{
-    width: 20%;
-}
-.d-flex{
-    display: flex;
-    flex-wrap: wrap;
+/*body*/
+.wrapper{
+    height: 100vh;
+    background-color: black;
 }
 
-#app_header{
-    .sidebar{
-        background-color: orange;
+    .top{
+        display: flex;
+        height: calc(100% - 80px);
+
+        .sidebar, content{
+            height: 100%;
+        }
+
+        /*header*/
+        .sidebar{
+            width: 245px;
+            background-color: beige;
+            flex-shrink: 0;  
+        }
+        /*main*/
+        .content{
+            width: calc(100% - 245);
+            overflow-y: auto;
+            padding: 2rem;
+        }
     }
-}
+/*footer*/
+    .botton{
+        height: 80px;
+        background-color: grey;
+    }
+
+
+
