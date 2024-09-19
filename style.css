@@ -107,6 +107,20 @@ body{
                        display: none;}
                     } */
             }
+
+            .menu_left{
+                a{
+                    width: 30px;
+                    display:flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            h4{
+                padding: 1rem 0;
+                color: white;
+            }
         }
         /*main*/
         .content{
