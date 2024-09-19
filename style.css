@@ -9,6 +9,7 @@
     --sp-dark: #000000;
     --sp-primary: #080b12;
     --sp-secondary: #141922;
+    --sp-tertiary: #282828;
 }
 
 
@@ -118,9 +119,23 @@ body{
                 }
             }
             h4{
-                padding: 1rem 0;
+                padding: 1rem 0 0;
                 color: white;
             }
+            .playlist{
+                ul{
+                    list-style-type: none;
+                    color: white;
+                    padding: 1rem;
+                    
+                    i{ 
+                        color: #000000;
+                        background-color: gray;
+                    }
+                }
+                
+            }
+
         }
         /*main*/
         .content{
@@ -160,7 +175,7 @@ body{
                 color: white;
                 text-align: center;
             }
-            .played{
+            .artisti{
                 border-radius: 10rem;
             }
         }
@@ -168,7 +183,7 @@ body{
 /*footer*/
     .botton{
         height: 80px;
-        background-color: grey;
+        background-color: var(--sp-tertiary);
     }
 
 
