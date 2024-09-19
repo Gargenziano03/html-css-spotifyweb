@@ -22,7 +22,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 95%;
     margin: auto;
 }
 .row{
@@ -113,15 +113,21 @@ body{
             background-color: var(--sp-secondary);
             width: calc(100% - 50px);
             overflow-y: auto;
-            padding: 2rem;
 
             h2{
-                display: flex;
-                flex-wrap: wrap;
+                padding: 2rem 0 1rem;
+                color: white;
+            }
+            .text{
+
+                color: white;
+                text-align: center;
+
             }
 
+
             .played{
-                border-radius: 6rem;
+                border-radius: 10rem;
             }
         }
     }
