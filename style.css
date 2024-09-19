@@ -110,6 +110,9 @@ body{
             }
 
             .menu_left{
+                li{
+                    padding: 0.4rem;
+                }
                 a{
                     width: 30px;
                     display:flex;
@@ -126,12 +129,28 @@ body{
                 ul{
                     list-style-type: none;
                     color: white;
-                    padding: 1rem;
+                    li{
+                        padding: 0.4rem;
+                    }
                     
                     i{ 
+                        padding: 0.5rem;
+                        border-radius: 0.4rem;
                         color: #000000;
                         background-color: gray;
                     }
+                }
+            }
+
+            .app{
+                width: 10%;
+                display: flex;
+
+                button{
+                    
+                    color: white;
+                    background-color: transparent;
+                    border: 0;
                 }
                 
             }
@@ -146,12 +165,13 @@ body{
             .main_header{
                 padding: 1rem 0;
                 background-color: var(--sp-primary);
-                a{ 
-                    padding: 1rem ;
-                    display: flex;
-                    justify-content: end;
-                    text-decoration: none;
-                    color: rgb(255, 255, 255);
+                text-align: right;
+                button{ 
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid;
+                    padding: 0.5rem;
+                    border-radius: 1rem;
                 }
             }
 
@@ -168,6 +188,9 @@ body{
 
             h2{
                 padding: 2rem 0 1rem;
+                color: white;
+            }
+            span{
                 color: white;
             }
 

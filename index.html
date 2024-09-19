@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body class="wrapper debu">
 
     <div class="top">
         <div class="sidebar">
             <div class="logo">
-                <img  src="./img/logo.svg" alt="logo">
+                <img src="./img/logo.svg" alt="logo">
             </div>
             <!--logo-->
             <nav class="menu_left">
                 <ul>
                     <li><a href="#"><img src="./img/home.svg" alt="">home</a></li>
                     <li><a href="#"><img src="./img/search.svg" alt="">Cerca</a></li>
-                    <li><a href="#"><img src="./img/libreria.svg" alt="">La tua libreria</a></li>
+                    <li><a href="#"><img src="./img/libreria.svg" alt="">La tua libreria </a></li>
                 </ul>
             </nav>
             <!--menu home, cerca e libreria -->
@@ -30,36 +34,40 @@
                     <li>Nome Playlist</li>
                     <li>Nome Playlist</li>
                     <li>Nome Playlist</li>
-                    <li>NomePlaylist</li>
-                    <li>NomePlaylist</li>
-                    
-
+                    <li>Nome Playlist</li>
+                    <li>Nome Playlist</li>
                 </ul>
             </nav>
             <!--lista per playlist-->
+            <div class="app">
+                <img src="./img/download.svg" alt="">
+                <button>installa app</button>
+                
+
+            </div>
         </div>
         <!--header-->
 
         <div class="content">
 
             <div class="main_header">
-                <a href="#">EFFETTUA  L'UPGRADE</a>
+                <button>EFFETTUA UPGRADE</button>
             </div>
             <!--upgrade-->
             <nav class="menu  col-md-4 col-sm-6">
-                    <a href="#">IN EVIDENZA</a>
-                    <a href="#">PODCAST</a>
-                    <a href="#">CLASSIFICHE</a>
-                    <a href="#">GENERE E MOOD</a>
-                    <a href="#">NUOVE USCITE</a>
-                    <a href="#">SCOPRI</a>  
+                <a href="#">IN EVIDENZA</a>
+                <a href="#">PODCAST</a>
+                <a href="#">CLASSIFICHE</a>
+                <a href="#">GENERE E MOOD</a>
+                <a href="#">NUOVE USCITE</a>
+                <a href="#">SCOPRI</a>
             </nav>
             <!--menu-->
 
             <div class="container">
 
                 <h2>Recently played</h2>
-
+                
                 <div class="row">
                     <div class="col-2 col-lg-2 col-md-4 col-sm-6">
                         <img src="./img/metal_lifting.jpg" alt="metal">
@@ -71,9 +79,9 @@
                     <div class="col-2 col-lg-2 col-md-4 col-sm-6">
                         <img src="./img/stranger.jpeg" alt="stranger">
                         <div class=" text">
-                        <h3>Stranger Thinhs, Vol.1(a netflix Original Series soundtrack)</h3>
-                        <span>Kyle Dixon & Michael Stein</span>
-                    </div>
+                            <h3>Stranger Thinhs, Vol.1(a netflix Original Series soundtrack)</h3>
+                            <span>Kyle Dixon & Michael Stein</span>
+                        </div>
                     </div>
                     <div class="col-2 col-lg-2 col-md-4 col-sm-6">
                         <img src="./img/aquietplace.jpeg" alt="aquietplace">
@@ -90,7 +98,7 @@
                         </div>
                     </div>
                     <div class="col-2 col-lg-2 col-md-4 col-sm-6">
-                        <img src="./img/cure.jpeg" alt="cure"> 
+                        <img src="./img/cure.jpeg" alt="cure">
                         <div class="text">
                             <h3>Acure for wellness </h3>
                             <span>subtitle</span>
@@ -107,23 +115,25 @@
                 <!--Hearvy Metal-->
 
                 <h2>Creato per John Doe</h2>
+                <span>Più ascolti, più accurati saranno i suggerimenti</span>
                 <div class="row">
                     <div class="col-2 col-md-4 col-sm-6">
                         <img src="./img/radar.jpeg" alt="">
                         <div class="text">
                             <h3>Release Radar </h3>
-                        </div>               
+                        </div>
                     </div>
                     <div class="col-2 col-md-4 col-sm-6">
                         <img src="./img/mixdaily.jpeg" alt="">
                         <div class="text">
                             <h3>Dailly mix 1 </h3>
-                        </div>                  
+                        </div>
                     </div>
                 </div>
                 <!--creato per john doe-->
 
-                <h2>artisti più popolari</h2>
+                <h2>Artisti più popolari</h2>
+                <span>Più ascolti, più accurati saranno i suggerimenti </span>
                 <div class="row">
                     <div class="col-2 col-md-4 col-sm-6">
                         <img class="artisti" src="./img/einaudi.jpeg" alt="">
@@ -131,8 +141,8 @@
                         </div>
                     </div>
                     <div class="col-2 col-md-4 col-sm-6">
-                        <img class="artisti" src="./img/youg.jpeg" alt=""> 
-                    </div>              
+                        <img class="artisti" src="./img/youg.jpeg" alt="">
+                    </div>
                 </div>
                 <!--artisti più popolari-->
 
@@ -143,7 +153,10 @@
 
     </div>
 
-    <div class="botton"></div>
-    <!--footer-->   
+    <div class="botton">
+
+    </div>
+    <!--footer-->
 </body>
+
 </html>
